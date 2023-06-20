@@ -12,7 +12,7 @@
     background-color: #F6F6F6;
     border-radius: 20px;
     box-shadow: 3px 3px #0000;
-    height: 23em;
+    height: 28em;
     box-shadow: 3px 3px 3px black;
 }
 
@@ -98,4 +98,19 @@
     box-shadow: 3px 3px #434f91 !important;
     outline-style: groove;
     outline-color: #434f91;
+}
+
+
+.container-sucesso {
+    position: relative;
+    bottom: 9em;
+    padding: 30px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.icon-sucesso{
+    margin-bottom: 4px;
+    font-size: 30px;
+    margin-right: 10px;
 }
