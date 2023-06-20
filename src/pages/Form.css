@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-
+ 
 }
 
 .form-container {
@@ -13,6 +13,7 @@
     border-radius: 20px;
     box-shadow: 3px 3px #0000;
     height: 23em;
+    box-shadow: 3px 3px 3px black;
 }
 
 .file-form[type=file]::file-selector-button {
@@ -85,4 +86,16 @@
 
 .label-form {
     font-weight: bold;
+}
+
+.select-form {
+    width: 15em;
+    margin-bottom: 20px;
+}
+
+.select-form:hover, .select-form:active,.select-form:focus,.select-form:visited {
+    border:none !important;
+    box-shadow: 3px 3px #434f91 !important;
+    outline-style: groove;
+    outline-color: #434f91;
 }
