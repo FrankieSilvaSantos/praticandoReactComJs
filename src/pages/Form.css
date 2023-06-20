@@ -1,0 +1,88 @@
+.form-style {
+    margin: 2em 0 0 3em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.form-container {
+    
+    padding: 20px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    box-shadow: 3px 3px #0000;
+    height: 23em;
+}
+
+.file-form[type=file]::file-selector-button {
+
+    background-color: #6278F7;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    width: 167px;
+    padding:1px
+
+}
+
+
+.file-form-container {
+   position: relative;
+   right: 5px;
+   margin-bottom: 10px;
+   
+}
+
+.file-form[type=file]::file-selector-button:hover {
+
+    background-color: #434f91 !important;
+    border-radius: 10px;
+    border:2px solid #2a48f5 !important;
+    box-shadow: 3px 3px 3px #0b1a6b !important ;
+    width: 167px;
+    cursor: pointer;
+    
+}
+
+.button-form {
+    background-color: #5b6ccc;
+    border-radius: 10px;
+    padding:1px !important;
+    width: 167px;
+    border: 2px solid black !important;
+    position: relative;
+    top:5px
+}
+
+.button-form:hover {
+    background-color: #434f91 !important;
+    border-radius: 10px;
+    border:2px solid #2a48f5 !important;
+    box-shadow: 3px 3px 3px #0b1a6b !important ;
+    width: 167px;
+
+}
+
+.container-button-form {
+    display: flex;
+    gap: 1em;
+    margin-left: 1em;
+}
+
+.input-form {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.input-form:hover,.input-form:active,.input-form:focus,.input-form:visited {
+ 
+    border:none !important;
+    box-shadow: 3px 3px #434f91 !important;
+    outline-style: groove;
+    outline-color: #434f91;
+}
+
+.label-form {
+    font-weight: bold;
+}
