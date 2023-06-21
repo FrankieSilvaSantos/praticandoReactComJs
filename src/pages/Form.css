@@ -102,11 +102,12 @@
 
 
 .container-sucesso {
-    position: relative;
+    position: fixed;
     bottom: 9em;
     padding: 30px;
    font-weight: bold;
    text-align: center;
+
 }
 
 .icon-sucesso{
