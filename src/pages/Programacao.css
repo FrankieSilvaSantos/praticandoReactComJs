@@ -30,6 +30,7 @@
 
 .image-style {
     margin: 20px 0 0 20px;
+ 
 }
 
 .card-title {
@@ -40,4 +41,20 @@
 .card-text {
     color:#212121;
 
+}
+
+.span-programacao {
+    font-weight: bold;
+}
+
+.icon-time {
+    margin-bottom: 3px;
+    color: #57C278;
+    
+}
+
+.container-img {
+    background-image: url('../../public/img/programacaoRectangle.png');
+    background-repeat: no-repeat;
+    background-size: 380px;
 }
