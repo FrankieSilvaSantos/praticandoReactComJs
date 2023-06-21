@@ -1,0 +1,34 @@
+.container-collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link:hover,.nav-link:focus,.nav-link:active {
+    color:#6278F7;
+    border-bottom: 1px solid #6278F7;
+}
+
+.dropdown-toggle:focus:focus {
+    color:#6278F7;
+}
+
+.drop-style {
+
+    color:#6278F7;
+
+}
+
+.toggler-container {
+ float: right;
+}
+
+
+.navbar-toggler {
+   float: right;
+}
+
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus  {
+   color: #6278F7;
+   background-color: #F2F2F2;
+}

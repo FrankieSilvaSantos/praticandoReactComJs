@@ -6,7 +6,7 @@ function Banner() {
 
         <header className='header'>
 
-        <img src="/img/HeaderHeader_total-1.png" height={'270px'} width={'100%'} className="banner"></img>
+        <img src="/img/HeaderHeader_total-1.png" height={'280px'} width={'100%'} className="banner"></img>
 
     
 
