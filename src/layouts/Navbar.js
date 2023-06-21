@@ -9,7 +9,7 @@ function Navbar() {
             <section className='navbar-section'>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary navbar">
                     <div className="container-fluid container-navbar ">
-                    <a class="navbar-brand" href="#"><img className='img-form' src='./img/Logo.png'></img></a>
+                    <a className="navbar-brand" href="#"><img className='img-form' src='./img/Logo.png'></img></a>
                         <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -17,7 +17,7 @@ function Navbar() {
                         <div className="collapse navbar-collapse container-collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav container-link ">
                                 <Link className="nav-link" aria-current="page">Home</Link>
-                                <a className="nav-link" href="#">Features</a>
+                               
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Minha organização
