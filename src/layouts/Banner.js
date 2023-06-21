@@ -4,9 +4,9 @@ function Banner() {
 
     return(
 
-        <header>
+        <header className='header'>
 
-        <img src="/img/HeaderHeader_total-1.png" height={'350px'} width={'100%'} className="banner"></img>
+        <img src="/img/HeaderHeader_total-1.png" height={'270px'} width={'100%'} className="banner"></img>
 
     
 
