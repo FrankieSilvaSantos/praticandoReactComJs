@@ -109,8 +109,8 @@ function Form() {
                                 setTime(e.target.value)
                             })}>
                             <option value='' >Selecione um item</option>
-                            {times.map((items) => {
-                              return  <option value={items}>{items}</option>
+                            {times.map((items,index) => {
+                              return  <option key={index} value={items}>{items}</option>
                             })}
                                
                             {/* <option value="Programação">Programação</option>
