@@ -16,14 +16,14 @@ function Navbar() {
 
                         <div className="collapse navbar-collapse container-collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav container-link ">
-                                <Link className="nav-link" aria-current="page">Home</Link>
+                                <Link className="nav-link" aria-current="page" to='/'>Home</Link>
                                
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Minha organização
                                     </a>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item drop-style" href="#">Programação</a></li>
+                                        <li><Link className="dropdown-item drop-style" to="/programacao">Programação</Link></li>
                                         <li><a className="dropdown-item drop-style" href="#">Front-end</a></li>
                                         <li><a className="dropdown-item drop-style" href="#">Data Science</a></li>
                                         <li><a className="dropdown-item drop-style" href="#">Devops</a></li>

@@ -7,19 +7,21 @@
       "imagem": "https://www.google.com/search?q=gengar&rlz=1C1GCEA_enBR1038BR1038&sxsrf=APwXEdexjYg719RK40gMUerR6Oj88P9o4w:1687301689537&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj1sdXO-NL_AhWdGrkGHQHnC4oQ0pQJegQIBhAC&biw=1366&bih=657&dpr=1#imgrc=mMd0iFZjJuidxM",
       "time": "Front-end"
     },
-    {
-      "nome": "Ghost",
-      "cargo": "assistente",
-      "time": "Front-end",
-      "imagem": "https://www.google.com/search?q=gengar&rlz=1C1GCEA_enBR1038BR1038&sxsrf=APwXEdexjYg719RK40gMUerR6Oj88P9o4w:1687301689537&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj1sdXO-NL_AhWdGrkGHQHnC4oQ0pQJegQIBhAC&biw=1366&bih=657&dpr=1#imgrc=mMd0iFZjJuidxM",
-      "id": 2
-    },
-    {
-      "nome": "Ghost",
-      "cargo": "frontend",
-      "time": "Programação",
-      "imagem": "https://www.google.com/search?q=gengar&rlz=1C1GCEA_enBR1038BR1038&sxsrf=APwXEdexjYg719RK40gMUerR6Oj88P9o4w:1687301689537&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj1sdXO-NL_AhWdGrkGHQHnC4oQ0pQJegQIBhAC&biw=1366&bih=657&dpr=1#imgrc=mMd0iFZjJuidxM",
-      "id": 3
-    }
+   {
+    "id": 2,
+    "nome": "Bruno",
+    "cargo": "Programação",
+    "imagem": "https://i.pinimg.com/564x/85/8b/61/858b615e25468ac23f0abb8e6236346e.jpg",
+    "time": "Programação"
+   },
+
+   {
+    "id": 3,
+    "nome": "Rebeca",
+    "cargo": "Programação",
+    "imagem": "https://unite.pokemon.com/images/pokemon/gengar/stat/stat-gengar.png",
+    "time": "Programação"
+   }
+   
   ]
 }
