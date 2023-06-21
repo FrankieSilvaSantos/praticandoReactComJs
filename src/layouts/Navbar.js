@@ -19,19 +19,19 @@ function Navbar() {
                             <div className="navbar-nav container-link ">
                                 <Link className="nav-link" aria-current="page">Home</Link>
                                 <a className="nav-link" href="#">Features</a>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Minha organização
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item drop-style" href="#">Programação</a></li>
-                                        <li><a class="dropdown-item drop-style" href="#">Front-end</a></li>
-                                        <li><a class="dropdown-item drop-style" href="#">Data Science</a></li>
-                                        <li><a class="dropdown-item drop-style" href="#">Devops</a></li>
-                                        <li><hr class="dropdown-divider drop-style"></hr></li>
-                                        <li><a class="dropdown-item drop-style" href="#">UX e Design</a></li>
-                                        <li><a class="dropdown-item drop-style" href="#">Mobile</a></li>
-                                        <li><a class="dropdown-item drop-style" href="#">Inovação e Gestão</a></li>
+                                    <ul className="dropdown-menu">
+                                        <li><a className="dropdown-item drop-style" href="#">Programação</a></li>
+                                        <li><a className="dropdown-item drop-style" href="#">Front-end</a></li>
+                                        <li><a className="dropdown-item drop-style" href="#">Data Science</a></li>
+                                        <li><a className="dropdown-item drop-style" href="#">Devops</a></li>
+                                        <li><hr className="dropdown-divider drop-style"></hr></li>
+                                        <li><a className="dropdown-item drop-style" href="#">UX e Design</a></li>
+                                        <li><a className="dropdown-item drop-style" href="#">Mobile</a></li>
+                                        <li><a className="dropdown-item drop-style" href="#">Inovação e Gestão</a></li>
                                
                             
                                     </ul>
