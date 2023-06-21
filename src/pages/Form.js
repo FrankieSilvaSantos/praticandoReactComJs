@@ -5,8 +5,8 @@ import {SiBitrise} from "react-icons/si";
 
 function Form() {
 
-    // const times = ['Programação','Front-end','Back-end','Data Science',
-    // 'Devops','UX e Design','Mobile','Inovação e Gestão']
+     const times = ['Programação','Front-end','Back-end','Data Science',
+     'Devops','UX e Design','Mobile','Inovação e Gestão']
 
 
     const [nome, setNome] = useState()
@@ -81,7 +81,7 @@ function Form() {
                     <div className="form">
                         <label className="form-label label-form" htmlFor="cargo">Cargo</label>
                         <input type="text" id="cargo" className="form-control input-form"
-                            pattern='[A-Z a-z]+' placeholder='Digite o cargo' minLength={8} maxLength={15} required onChange={((e) => {
+                            pattern='[A-Z a-z]+' placeholder='Digite o cargo' minLength={5} maxLength={15} required onChange={((e) => {
                                 setCargo(e.target.value)
                             })} />
 
@@ -109,15 +109,18 @@ function Form() {
                                 setTime(e.target.value)
                             })}>
                             <option value='' >Selecione um item</option>
-                            {/* {times.map((items,index) =>  */}
-                            <option value="Programação">Programação</option>
+                            {times.map((items) => {
+                              return  <option value={items}>{items}</option>
+                            })}
+                               
+                            {/* <option value="Programação">Programação</option>
                             <option value="Front-end">Front-end</option>
                             <option value="Back-end">Back-end</option>
                             <option value="Data Science">Data Science</option>
                             <option value="Devops">Devops</option>
                             <option value="UX e Design">UX e Design</option>
                             <option value="Mobile">Mobile</option>
-                            <option value="Inovação e Gestão">Inovação e Gestão</option>
+                            <option value="Inovação e Gestão">Inovação e Gestão</option> */}
 
                             {/* )} */}
 
