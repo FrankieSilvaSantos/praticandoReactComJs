@@ -9,8 +9,7 @@ function Navbar() {
             <section className='navbar-section'>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary navbar">
                     <div className="container-fluid container-navbar ">
-
-
+                    <a class="navbar-brand" href="#"><img className='img-form' src='./img/Logo.png'></img></a>
                         <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
