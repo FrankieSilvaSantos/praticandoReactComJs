@@ -1,18 +1,18 @@
 {
   "cards": [
     {
-      "nome": "Frankie Yoogan",
-      "cargo": "Coder",
+      "nome": "Bruno Sacramento",
+      "cargo": "frontend",
       "time": "Programação",
-      "imagem": "https://i.pinimg.com/564x/09/69/48/0969485a96b79ca75335dc920fac2128.jpg",
-      "id": 1
+      "imagem": "https://i.pinimg.com/564x/dc/37/08/dc370829e95ca20ac19666df77f70593.jpg",
+      "id": 2
     },
     {
-      "nome": "Bruno Sacrament",
-      "cargo": "Coder",
+      "nome": "Frankie Yoogan",
+      "cargo": "fullstack",
       "time": "Programação",
-      "imagem": "https://i.pinimg.com/564x/a3/94/fe/a394fee5ac0775a93ba420b946d2c8e7.jpg",
-      "id": 2
+      "imagem": "https://i.pinimg.com/564x/09/69/48/0969485a96b79ca75335dc920fac2128.jpg",
+      "id": 3
     }
   ]
 }

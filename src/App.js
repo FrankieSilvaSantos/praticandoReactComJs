@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useParams } from "react-r
 import Footer from './layouts/Footer';
 import Navbar from './layouts/Navbar';
 import Programacao from './pages/Programacao';
+import Editar from './pages/Editar';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <Route path='/' element={<Form></Form>}></Route>
 
     <Route path='/programacao' element={<Programacao></Programacao>}></Route>
+
+    <Route path={`/editar/:id`} element={<Editar></Editar>}></Route>
 
       </Routes>
       <Footer></Footer>

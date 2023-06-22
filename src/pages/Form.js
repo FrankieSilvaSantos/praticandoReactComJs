@@ -67,11 +67,12 @@ function Form() {
             <form onSubmit={handleClick} className="form-style">
 
                 <section className='form-container'>
+                    <h1 className='titulo-form'>Preencha os dados para criar o card do colaborador</h1>
 
                     <div className="form">
                         <label className="form-label label-form" htmlFor="nome">Nome</label>
                         <input type="text" placeholder='Digite o nome' id="nome" className="form-control input-form"
-                            pattern='[A-Z a-z]+' minLength={9} maxLength={15} required onChange={((e) => {
+                            pattern='[A-Z a-z]+' minLength={9} maxLength={18} required onChange={((e) => {
                                 setNome(e.target.value)
                             })} />
 
@@ -81,7 +82,7 @@ function Form() {
                     <div className="form">
                         <label className="form-label label-form" htmlFor="cargo">Cargo</label>
                         <input type="text" id="cargo" className="form-control input-form"
-                            pattern='[A-Z a-z]+' placeholder='Digite o cargo' minLength={5} maxLength={15} required onChange={((e) => {
+                            pattern='[A-Z a-z]+' placeholder='Digite o cargo' minLength={5} maxLength={18} required onChange={((e) => {
                                 setCargo(e.target.value)
                             })} />
 

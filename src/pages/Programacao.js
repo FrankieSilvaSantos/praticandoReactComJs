@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { SiUndertale } from 'react-icons/si';
 import { MdBuild } from 'react-icons/md';
 import { IoHeartDislikeSharp } from 'react-icons/io5'
+import { Link } from 'react-router-dom';
 
 function Programacao() {
 
@@ -14,7 +15,11 @@ function Programacao() {
 
 
 
+    function editar(index,time) {
 
+            localStorage.setItem('id',index)
+            localStorage.setItem('programacao',time)
+    }
 
 
 
@@ -110,7 +115,7 @@ function Programacao() {
                                                                     <div className=''>
                                                                         <div className='container-button'>
                                                                             
-                                                                            <button type="button" className="btn btn-primary button-programacao-style"><MdBuild className='icon-time2'></MdBuild> Editar</button>
+                                                                           <Link to={`/editar/${filteredtime.id}`}> <button type="button" onClick={(() => editar(filteredtime.id,filteredtime.time))} className="btn btn-primary button-programacao-style"><MdBuild className='icon-time2'></MdBuild> Editar</button></Link>
 
                                                                                    
                                                                                         
