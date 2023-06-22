@@ -21,15 +21,16 @@
 .container-programacao {
     background-color: #00C86F26;
     width: 100%;
-    height: 600px;
-    top: 1675px;
+    height: auto;
+    /* top: 1675px; */
 
 }
 
 
 
 .image-style {
-    margin: 20px 0 0 20px;
+    /* margin: 20px 0 0 20px; */
+  padding: 20px;
  
 }
 
@@ -53,8 +54,42 @@
     
 }
 
+.icon-time2 {
+    margin-bottom: 3px;
+
+    
+}
+
 .container-img {
     background-image: url('../../public/img/programacaoRectangle.png');
     background-repeat: no-repeat;
     background-size: 380px;
+}
+
+.button-programacao-style {
+    color: black;
+    background-color: #57C278;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.button-programacao-style:hover,.button-programacao-style:focus,.button-programacao-style:active {
+    background-color: #b8f7cd;
+    outline-style:solid #212121 ;
+    outline-color: #212121 !important;    
+    border: 1px solid #212121 !important;
+    color: black;
+    box-shadow: 2px 2px black !important;
+        
+}
+
+.container-button {
+    display: flex;
+    justify-content: left;
+    gap: 1em;
+}
+
+.container-card-programacao {
+    width: auto;
 }

@@ -1,7 +1,9 @@
 import './Navbar.css'
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 function Navbar() {
+
+    const params = useParams()
 
     return (
 
@@ -23,7 +25,7 @@ function Navbar() {
                                         Minha organização
                                     </a>
                                     <ul className="dropdown-menu">
-                                        <li><Link className="dropdown-item drop-style" to="/programacao">Programação</Link></li>
+                                        <li><Link className="dropdown-item drop-style" to='/programacao'>Programação</Link></li>
                                         <li><a className="dropdown-item drop-style" href="#">Front-end</a></li>
                                         <li><a className="dropdown-item drop-style" href="#">Data Science</a></li>
                                         <li><a className="dropdown-item drop-style" href="#">Devops</a></li>

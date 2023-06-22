@@ -1,27 +1,18 @@
 {
   "cards": [
     {
-      "id": 1,
-      "nome": "Joshua",
-      "cargo": "Back-end",
-      "imagem": "https://www.google.com/search?q=gengar&rlz=1C1GCEA_enBR1038BR1038&sxsrf=APwXEdexjYg719RK40gMUerR6Oj88P9o4w:1687301689537&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj1sdXO-NL_AhWdGrkGHQHnC4oQ0pQJegQIBhAC&biw=1366&bih=657&dpr=1#imgrc=mMd0iFZjJuidxM",
-      "time": "Front-end"
+      "nome": "Frankie Yoogan",
+      "cargo": "Coder",
+      "time": "Programação",
+      "imagem": "https://i.pinimg.com/564x/09/69/48/0969485a96b79ca75335dc920fac2128.jpg",
+      "id": 1
     },
-   {
-    "id": 2,
-    "nome": "Bruno",
-    "cargo": "Programação",
-    "imagem": "https://i.pinimg.com/564x/85/8b/61/858b615e25468ac23f0abb8e6236346e.jpg",
-    "time": "Programação"
-   },
-
-   {
-    "id": 3,
-    "nome": "Rebeca",
-    "cargo": "Programação",
-    "imagem": "https://unite.pokemon.com/images/pokemon/gengar/stat/stat-gengar.png",
-    "time": "Programação"
-   }
-   
+    {
+      "nome": "Bruno Sacrament",
+      "cargo": "Coder",
+      "time": "Programação",
+      "imagem": "https://i.pinimg.com/564x/a3/94/fe/a394fee5ac0775a93ba420b946d2c8e7.jpg",
+      "id": 2
+    }
   ]
 }
