@@ -30,7 +30,7 @@ function Navbar() {
                                         <li><a className="dropdown-item drop-style" href="#">Data Science</a></li>
                                         <li><a className="dropdown-item drop-style" href="#">Devops</a></li>
                                         <li><hr className="dropdown-divider drop-style"></hr></li>
-                                        <li><a className="dropdown-item drop-style" href="#">UX e Design</a></li>
+                                        <li><Link className="dropdown-item drop-style" to={'/design'}>UX e Design</Link></li>
                                         <li><a className="dropdown-item drop-style" href="#">Mobile</a></li>
                                         <li><a className="dropdown-item drop-style" href="#">Inovação e Gestão</a></li>
                                

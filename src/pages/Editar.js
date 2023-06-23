@@ -91,7 +91,7 @@ function Editar() {
 
                     <div className="form" >
                         <label className="form-label label-form " htmlFor="time">Time</label>
-                        
+
                         <select onChange={handleInput} defaultValue={'DEFAULT'} className="form-select select-form"
                             aria-label="Default select example" id="time" name="time" required >
                             <option value='DEFAULT' disabled>Selecione um item</option>
@@ -101,21 +101,16 @@ function Editar() {
 
 
 
-
+                  
 
 
                         </select>
 
-                    </div>
-
-
-                    {localStorage.getItem('programacao') && (
-
                         <div className="form file-form-container ">
-                            <button className="btn btn-primary button-programacao-style"><MdBuild className='icon-time2'></MdBuild> Editar</button>
-                        </div>
+                                <button className="btn btn-primary btn-block mb-4 button-editar"><MdBuild className='icon-editar'></MdBuild> Editar</button>
+                            </div>
 
-                    )}
+                    </div>
 
 
 

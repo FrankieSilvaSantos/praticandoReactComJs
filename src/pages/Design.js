@@ -1,4 +1,4 @@
-import './Programacao.css'
+import './Design.css'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { SiUndertale } from 'react-icons/si';
@@ -7,11 +7,11 @@ import { IoHeartDislikeSharp } from 'react-icons/io5'
 import { Link } from 'react-router-dom';
 
 
-function Programacao() {
+function Design() {
 
     const [data, setData] = useState([])
 
-    const [programacao, setProgramacao] = useState()
+    const [design, setdesign] = useState()
 
 
 
@@ -19,7 +19,7 @@ function Programacao() {
     function editar(index,time) {
 
             localStorage.setItem('id',index)
-            localStorage.setItem('programacao',time)
+            localStorage.setItem('design',time)
     }
 
 
@@ -54,10 +54,10 @@ function Programacao() {
     return (
 
         <>
-            <section className='container-programacao'>
-                <h1 className="titulo-programacao">Programação</h1>
+            <section className='container-design'>
+                <h1 className="titulo-programacao">UX e Design</h1>
                 <section className='container-border-programacao'>
-                    <section className='container-border-programacao2'></section>
+                    <section className='container-border-design2'></section>
                 </section>
 
 
@@ -95,7 +95,7 @@ function Programacao() {
 
                                             <div className="carousel-item active ">
                                                 <div className="row ">
-                                                    {data.filter((name) => name.time.includes('Programação')).map((filteredtime) => (
+                                                    {data.filter((name) => name.time.includes('UX e Design')).map((filteredtime) => (
                                            
                                                         <div key={filteredtime.id} className="col-md-4 mb-3 container-card-programacao">
 
@@ -104,23 +104,23 @@ function Programacao() {
 
 
                                                             <div className="card">
-                                                                <div className='container-img'>
+                                                                <div className='container-img-design'>
 
 
                                                                     <img className="rounded-circle image-style" alt="imagem timee" src={filteredtime.imagem} height={'250px'} width={'300px'} />
                                                                 </div>
                                                                 <div className="card-body">
                                                                     <h4 className="card-title">{filteredtime.nome}</h4>
-                                                                    <p className="card-text"><span className='span-programacao'><SiUndertale className="icon-time"></SiUndertale> Cargo:</span> {filteredtime.cargo}</p>
+                                                                    <p className="card-text"><span className='span-programacao'><SiUndertale className="icon-design"></SiUndertale> Cargo:</span> {filteredtime.cargo}</p>
 
                                                                     <div className=''>
                                                                         <div className='container-button'>
                                                                             
-                                                                           <Link to={`/editar/${filteredtime.id}`}> <button type="button" onClick={(() => editar(filteredtime.id,filteredtime.time))} className="btn btn-primary button-programacao-style"><MdBuild className='icon-time2'></MdBuild> Editar</button></Link>
+                                                                           <Link to={`/editar/${filteredtime.id}`}> <button type="button" onClick={(() => editar(filteredtime.id,filteredtime.time))} className="btn btn-primary button-design-style"><MdBuild className='icon-time2'></MdBuild> Editar</button></Link>
 
                                                                                    
                                                                                         
-                                                                            <button type='button'  className="btn btn-primary button-programacao-style" onClick={(e) =>deletar(filteredtime.id)}>
+                                                                            <button type='button'  className="btn btn-primary button-design-style" onClick={(e) =>deletar(filteredtime.id)}>
                                                                                     <IoHeartDislikeSharp className='icon-time2' ></IoHeartDislikeSharp> Deletar</button>
                                                                       
                                                                         
@@ -157,4 +157,4 @@ function Programacao() {
     )
 }
 
-export default Programacao;
+export default Design;

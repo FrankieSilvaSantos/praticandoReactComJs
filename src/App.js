@@ -7,6 +7,7 @@ import Footer from './layouts/Footer';
 import Navbar from './layouts/Navbar';
 import Programacao from './pages/Programacao';
 import Editar from './pages/Editar';
+import Design from './pages/Design';
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
     <Route path='/programacao' element={<Programacao></Programacao>}></Route>
 
     <Route path={`/editar/:id`} element={<Editar></Editar>}></Route>
+
+    <Route path='/design' element={<Design></Design>}></Route>
 
       </Routes>
       <Footer></Footer>

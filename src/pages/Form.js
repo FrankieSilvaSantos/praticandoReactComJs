@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import './Form.css';
 import axios from 'axios';
-import {SiBitrise} from "react-icons/si";
+import { SiBitrise } from "react-icons/si";
+
 
 function Form() {
 
-     const times = ['Programação','Front-end','Back-end','Data Science',
-     'Devops','UX e Design','Mobile','Inovação e Gestão']
+    const times = ['Programação', 'Front-end', 'Back-end', 'Data Science',
+        'Devops', 'UX e Design', 'Mobile', 'Inovação e Gestão']
 
 
     const [nome, setNome] = useState()
@@ -18,24 +19,25 @@ function Form() {
     const [time, setTime] = useState()
     const [time2, setTime2] = useState()
 
-    const [imagem, setimagem] = useState()
-    const [imagem2, setimagem2] = useState()
+    const [imagem, setimagem] = useState('')
+    const [imagem2, setimagem2] = useState('')
 
 
 
+    const formData = new FormData()
+    formData.append('imagem',imagem)
     function handleClick(e) {
+
         e.preventDefault()
+     
+        axios.post('http://localhost:4000/cards',{
 
-
-
-
-        axios.post('http://localhost:4000/cards', {
-
-
+            
             nome,
             cargo,
             time,
-            imagem,
+            imagem
+            
 
 
         })
@@ -44,7 +46,8 @@ function Form() {
                 setNome2(nome)
                 setCargo2(cargo)
                 setTime2(time)
-                setimagem2(imagem)
+              setimagem2(imagem)
+             
                 console.log(response)
             })
 
@@ -56,10 +59,15 @@ function Form() {
 
 
             })
+        
+            
+        }
+    
 
+      
+        
 
-
-    }
+    
 
     return (
 
@@ -89,12 +97,12 @@ function Form() {
                     </div>
 
                     <div className="form">
-                        <label className="form-label label-form" htmlFor="imagem">Imagem</label>
+                         <label className="form-label label-form" htmlFor="imagem">Imagem</label>
                         <input type="text" id="imagem" className="form-control input-form"
                             placeholder='Digite o url da imagem' required onChange={((e) => {
                                 setimagem(e.target.value)
-                            })} />
-
+                            })} /> 
+                  
                     </div>
 
 
@@ -110,10 +118,10 @@ function Form() {
                                 setTime(e.target.value)
                             })}>
                             <option value='' >Selecione um item</option>
-                            {times.map((items,index) => {
-                              return  <option key={index} value={items}>{items}</option>
+                            {times.map((items, index) => {
+                                return <option key={index} value={items}>{items}</option>
                             })}
-                               
+
                             {/* <option value="Programação">Programação</option>
                             <option value="Front-end">Front-end</option>
                             <option value="Back-end">Back-end</option>
@@ -141,7 +149,7 @@ function Form() {
                         <div className='container-sucesso'>
 
                             <div class="alert alert-success container-sucesso" role="alert">
-                            <SiBitrise className='icon-sucesso'></SiBitrise> Card criado com SUCESSO!!
+                                <SiBitrise className='icon-sucesso'></SiBitrise> Card criado com SUCESSO!!
                             </div>
 
                         </div>

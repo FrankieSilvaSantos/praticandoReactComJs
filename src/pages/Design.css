@@ -1,0 +1,96 @@
+.titulo-programacao {
+
+    text-align: center;
+    margin-top: 0.5em;
+
+}
+
+
+.container-border-programacao {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-border-design2 {
+
+    width: 32px;
+    border-bottom: 4px solid #DB6EBF;
+    ;
+}
+
+.container-design {
+    background-color: #DC6EBE26;
+    width: 100%;
+    height: auto;
+    /* top: 1675px; */
+
+}
+
+
+
+.image-style {
+    /* margin: 20px 0 0 20px; */
+  padding: 20px;
+ 
+}
+
+.card-title {
+    color: #6278F7;
+
+}
+
+.card-text {
+    color:#212121;
+
+}
+
+.span-programacao {
+    font-weight: bold;
+}
+
+.icon-design {
+    margin-bottom: 3px;
+    color: #DB6EBF;
+    
+}
+
+.icon-design2 {
+    margin-bottom: 3px;
+
+    
+}
+
+.container-img-design {
+    background-image: url('../../public/img/designRectangle.png');
+    background-repeat: no-repeat;
+    background-size: 380px;
+}
+
+.button-design-style {
+    color: black;
+    background-color: #DB6EBF;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.button-design-style:hover,.button-design-style:focus,.button-design-style:active {
+    background-color: #f7b2e5;
+    outline-style:solid #212121 ;
+    outline-color: #212121 !important;    
+    border: 1px solid #212121 !important;
+    color: black;
+    box-shadow: 2px 2px black !important;
+        
+}
+
+.container-button {
+    display: flex;
+    justify-content: left;
+    gap: 1em;
+}
+
+.container-card-programacao {
+    width: auto;
+}
