@@ -9,7 +9,7 @@
 .container-border-programacao {
     display: flex;
     justify-content: center;
-
+    
 }
 
 .container-border-design2 {
@@ -19,12 +19,13 @@
     ;
 }
 
-.container-design {
-    background-color: #DC6EBE26;
-    width: 100%;
-    height: auto;
-    /* top: 1675px; */
 
+
+
+.design-background {
+    background-color: #DC6EBE26 !important;
+    height: auto;
+    width: auto;
 }
 
 

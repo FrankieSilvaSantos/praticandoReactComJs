@@ -1,6 +1,6 @@
-body{
+ body{
   height: 100%;
-}
+} 
 footer{
 margin-top: auto;
   
@@ -9,7 +9,7 @@ margin-top: auto;
 #root {
   display: flex;
  flex-direction: column;
-}
+} 
 
 body > iframe {
   display: none;

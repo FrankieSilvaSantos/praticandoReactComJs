@@ -53,7 +53,7 @@ function Programacao() {
       } 
     return (
 
-        <>
+        <section className='programacao-background'>
             <section className='container-programacao'>
                 <h1 className="titulo-programacao">Programação</h1>
                 <section className='container-border-programacao'>
@@ -152,7 +152,7 @@ function Programacao() {
 
 
             </section>
-        </>
+        </section>
 
     )
 }

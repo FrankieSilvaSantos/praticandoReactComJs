@@ -18,12 +18,14 @@
     border-bottom: 4px solid #57C278;
 }
 
-.container-programacao {
-    background-color: #00C86F26;
-    width: 100%;
-    height: auto;
-    /* top: 1675px; */
 
+
+.programacao-background {
+    background-color: #00C86F26 ;
+    height: auto;
+    width: auto;
+   
+ 
 }
 
 

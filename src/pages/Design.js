@@ -53,7 +53,7 @@ function Design() {
       } 
     return (
 
-        <>
+        <section className='design-background'>
             <section className='container-design'>
                 <h1 className="titulo-programacao">UX e Design</h1>
                 <section className='container-border-programacao'>
@@ -152,7 +152,7 @@ function Design() {
 
 
             </section>
-        </>
+        </section>
 
     )
 }
