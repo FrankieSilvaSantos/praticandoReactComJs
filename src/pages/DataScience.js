@@ -1,4 +1,4 @@
-import './Design.css'
+import './DataScience.css'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { SiUndertale } from 'react-icons/si';
@@ -7,11 +7,11 @@ import { IoHeartDislikeSharp } from 'react-icons/io5'
 import { Link } from 'react-router-dom';
 
 
-function Design() {
+function DataScience() {
 
     const [data, setData] = useState([])
 
-    const [design, setdesign] = useState()
+    const [programacao, setProgramacao] = useState()
 
 
 
@@ -19,7 +19,7 @@ function Design() {
     function editar(index,time) {
 
             localStorage.setItem('id',index)
-            localStorage.setItem('design',time)
+            localStorage.setItem('Data Science',time)
     }
 
 
@@ -53,11 +53,11 @@ function Design() {
       } 
     return (
 
-        <section className='design-background'>
-            <section className='container-design'>
-                <h1 className="titulo-programacao">UX e Design</h1>
+        <section className='dataScience-background'>
+            <section className='container-programacao'>
+                <h1 className="titulo-programacao">Data Science</h1>
                 <section className='container-border-programacao'>
-                    <section className='container-border-design2'></section>
+                    <section className='container-border-dataScience2'></section>
                 </section>
 
 
@@ -69,7 +69,7 @@ function Design() {
                                 <div className="col-6">
 
                                 </div>
-                                
+                               
                                 <div className="col-12">
 
 
@@ -85,7 +85,7 @@ function Design() {
 
                                             <div className="carousel-item active ">
                                                 <div className="row ">
-                                                    {data.filter((name) => name.time.includes('UX e Design')).map((filteredtime) => (
+                                                    {data.filter((name) => name.time.includes('Data Science')).map((filteredtime) => (
                                            
                                                         <div key={filteredtime.id} className="col-md-4 mb-3 container-card-programacao">
 
@@ -94,24 +94,24 @@ function Design() {
 
 
                                                             <div className="card">
-                                                                <div className='container-img-design'>
+                                                                <div className='container-img-dataScience'>
 
 
                                                                     <img className="rounded-circle image-style" alt="imagem timee" src={filteredtime.imagem} height={'250px'} width={'300px'} />
                                                                 </div>
                                                                 <div className="card-body">
                                                                     <h4 className="card-title">{filteredtime.nome}</h4>
-                                                                    <p className="card-text"><span className='span-programacao'><SiUndertale className="icon-design"></SiUndertale> Cargo:</span> {filteredtime.cargo}</p>
+                                                                    <p className="card-text"><span className='span-programacao'><SiUndertale className="icon-dataScience"></SiUndertale> Cargo:</span> {filteredtime.cargo}</p>
 
                                                                     <div className=''>
                                                                         <div className='container-button'>
                                                                             
-                                                                           <Link to={`/editar/${filteredtime.id}`}> <button type="button" onClick={(() => editar(filteredtime.id,filteredtime.time))} className="btn btn-primary button-design-style"><MdBuild className='icon-time2'></MdBuild> Editar</button></Link>
+                                                                           <Link to={`/editar/${filteredtime.id}`}> <button type="button" onClick={(() => editar(filteredtime.id,filteredtime.time))} className="btn btn-primary button-dataScience-style"><MdBuild className='icon-time2'></MdBuild> Editar</button></Link>
 
                                                                                    
                                                                                         
-                                                                            <button type='button'  className="btn btn-primary button-design-style" onClick={(e) =>deletar(filteredtime.id)}>
-                                                                                    <IoHeartDislikeSharp className='icon-time2' ></IoHeartDislikeSharp> Deletar</button>
+                                                                            <button type='button'  className="btn btn-primary button-dataScience-style" onClick={(e) =>deletar(filteredtime.id)}>
+                                                                                    <IoHeartDislikeSharp className='icon-dataScience2' ></IoHeartDislikeSharp> Deletar</button>
                                                                       
                                                                         
                                                                         </div>
@@ -147,4 +147,4 @@ function Design() {
     )
 }
 
-export default Design;
+export default DataScience;

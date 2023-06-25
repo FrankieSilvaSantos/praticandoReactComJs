@@ -1,0 +1,100 @@
+.titulo-programacao {
+
+    text-align: center;
+    margin-top: 0.5em;
+
+}
+
+
+.container-border-programacao {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-border-devops2 {
+
+    width: 32px;
+    border-bottom: 4px solid #E06B69;
+    
+}
+
+
+
+.devops-background {
+    background-color: #F1616526;
+    
+    height: auto;
+    width: auto;
+   
+ 
+}
+
+
+
+.image-style {
+    /* margin: 20px 0 0 20px; */
+  padding: 20px;
+ 
+}
+
+.card-title {
+    color: #6278F7;
+
+}
+
+.card-text {
+    color:#212121;
+
+}
+
+.span-programacao {
+    font-weight: bold;
+}
+
+.icon-devops {
+    margin-bottom: 3px;
+    color: #E06B69;
+    
+    
+}
+
+.icon-devops2 {
+    margin-bottom: 3px;
+
+    
+}
+
+.container-img-devops {
+    background-image: url('../../public/img/devopsRectangle.png');
+    background-repeat: no-repeat;
+    background-size: 380px;
+}
+
+.button-devops-style {
+    color: black;
+    background-color: #E06B69;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.button-devops-style:hover,.button-devops-style:focus,.button-devops-style:active {
+    background-color: #f19b99;
+    outline-style:solid #212121 ;
+    outline-color: #212121 !important;    
+    border: 1px solid #212121 !important;
+    color: black;
+    box-shadow: 2px 2px black !important;
+        
+}
+
+.container-button {
+    display: flex;
+    justify-content: left;
+    gap: 1em;
+}
+
+.container-card-programacao {
+    width: auto;
+}

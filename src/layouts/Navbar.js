@@ -26,13 +26,13 @@ function Navbar() {
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li><Link className="dropdown-item drop-style" to='/programacao'>Programação</Link></li>
-                                        <li><a className="dropdown-item drop-style" href="#">Front-end</a></li>
-                                        <li><a className="dropdown-item drop-style" href="#">Data Science</a></li>
-                                        <li><a className="dropdown-item drop-style" href="#">Devops</a></li>
+                                        <li><Link className="dropdown-item drop-style" to='/frontend'>Front-end</Link></li>
+                                        <li><Link className="dropdown-item drop-style" to='/datascience'>Data Science</Link></li>
+                                        <li><Link className="dropdown-item drop-style" to='/devops'>Devops</Link></li>
                                         <li><hr className="dropdown-divider drop-style"></hr></li>
                                         <li><Link className="dropdown-item drop-style" to={'/design'}>UX e Design</Link></li>
-                                        <li><a className="dropdown-item drop-style" href="#">Mobile</a></li>
-                                        <li><a className="dropdown-item drop-style" href="#">Inovação e Gestão</a></li>
+                                        <li><Link className="dropdown-item drop-style" to='/mobile'>Mobile</Link></li>
+                                        <li><Link className="dropdown-item drop-style" to='/inovacao'>Inovação e Gestão</Link></li>
                                
                             
                                     </ul>

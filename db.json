@@ -27,6 +27,41 @@
       "time": "UX e Design",
       "imagem": "https://i.pinimg.com/564x/c4/2e/59/c42e5951a831daa686babd5ede9541f6.jpg",
       "id": 5
+    },
+    {
+      "nome": "Bruno Sacramento",
+      "cargo": "front",
+      "time": "Front-end",
+      "imagem": "https://i.pinimg.com/564x/30/f8/bf/30f8bfba46d6aa6b11cd110a5f6872f8.jpg",
+      "id": 6
+    },
+    {
+      "nome": "Rodolfo",
+      "cargo": "O mais brabo",
+      "time": "Data Science",
+      "imagem": "https://i.pinimg.com/564x/6e/65/fd/6e65fd7e824ae27a62db1a3d69fe0a58.jpg",
+      "id": 7
+    },
+    {
+      "nome": "milton",
+      "cargo": "The OP",
+      "time": "Devops",
+      "imagem": "https://i.pinimg.com/564x/93/59/e5/9359e58c807521adf0cd68640ad65064.jpg",
+      "id": 8
+    },
+    {
+      "nome": "Sasa",
+      "cargo": "Android",
+      "imagem": "https://i.pinimg.com/564x/94/96/73/949673a8946b6faee1fc965bf017c851.jpg",
+      "time": "Mobile",
+      "id": 9
+    },
+    {
+      "nome": "Augusta",
+      "cargo": "Lapapadaa",
+      "imagem": "https://i.pinimg.com/564x/e1/15/e8/e115e8b1b2a175b8a8f407daa7ec4e63.jpg",
+      "time": "Inovação e Gestão",
+      "id": 10
     }
   ]
 }

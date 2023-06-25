@@ -1,0 +1,103 @@
+.titulo-programacao {
+
+    text-align: center;
+    margin-top: 0.5em;
+
+}
+
+
+.container-border-programacao {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-border-dataScience2 {
+
+    width: 32px;
+    border-bottom: 4px solid #A6D157;
+    ;
+}
+
+
+
+.dataScience-background {
+    background-color: #E9FFE3;
+    ;
+    height: auto;
+    width: auto;
+   
+ 
+}
+
+
+
+.image-style {
+    /* margin: 20px 0 0 20px; */
+  padding: 20px;
+ 
+}
+
+.card-title {
+    color: #6278F7;
+
+}
+
+.card-text {
+    color:#212121;
+
+}
+
+.span-programacao {
+    font-weight: bold;
+}
+
+.icon-dataScience {
+    margin-bottom: 3px;
+    color: #A6D157;
+    
+    
+}
+
+.icon-dataScience2 {
+    margin-bottom: 3px;
+    color: black;
+
+    
+}
+
+.container-img-dataScience {
+    background-image: url('../../public/img/dataScienceRectangle.png');
+    background-repeat: no-repeat;
+    background-size: 380px;
+}
+
+.button-dataScience-style {
+    color: black;
+    background-color: #A6D157;
+    ;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.button-dataScience-style:hover,.button-dataScience-style:focus,.button-dataScience-style:active {
+    background-color: #dbf8a4;
+    
+    outline-style:solid #212121 ;
+    outline-color: #212121 !important;    
+    border: 1px solid #212121 !important;
+    color: black;
+    box-shadow: 2px 2px black !important;
+        
+}
+
+.container-button {
+    display: flex;
+    justify-content: left;
+    gap: 1em;
+}
+
+.container-card-programacao {
+    width: auto;
+}

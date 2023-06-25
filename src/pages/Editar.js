@@ -43,7 +43,37 @@ function Editar() {
             })
 
             .then(() => {
-                setTimeout(() => navigate('/programacao'), 2000);
+                if(localStorage.getItem('Front-end')) {
+                setTimeout(() => navigate('/frontend'), 2000);
+                }
+
+                if(localStorage.getItem('Programação')) {
+                    setTimeout(() => navigate('/programacao'), 2000);
+                    }
+
+                    if(localStorage.getItem('Back-end')) {
+                        setTimeout(() => navigate('/backend'), 2000);
+                        }
+
+                        if(localStorage.getItem('Data Science')) {
+                            setTimeout(() => navigate('/datascience'), 2000);
+                            }
+
+                            if(localStorage.getItem('Devops')) {
+                                setTimeout(() => navigate('/devops'), 2000);
+                                }
+
+                                if(localStorage.getItem('UX e Design')) {
+                                    setTimeout(() => navigate('/design'), 2000);
+                                    }
+
+                                    if(localStorage.getItem('Mobile')) {
+                                        setTimeout(() => navigate('/mobile'), 2000);
+                                        }
+
+                                        if(localStorage.getItem('Inovação e Gestão')) {
+                                            setTimeout(() => navigate('/inovacao'), 2000);
+                                            }
 
             })
 
@@ -64,7 +94,7 @@ function Editar() {
                     <div className="form">
                         <label className="form-label label-form" htmlFor="nome">Nome</label>
                         <input type="text" placeholder='Digite o nome' id="nome" name="nome" className="form-control input-form"
-                            pattern='[A-Z a-z]+' minLength={9} maxLength={18} required onChange={handleInput} />
+                            pattern='[A-Z a-z]+' minLength={3} maxLength={18} required onChange={handleInput} />
 
                     </div>
 

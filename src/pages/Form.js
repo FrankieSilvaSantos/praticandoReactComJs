@@ -80,7 +80,7 @@ function Form() {
                     <div className="form">
                         <label className="form-label label-form" htmlFor="nome">Nome</label>
                         <input type="text" placeholder='Digite o nome' id="nome" className="form-control input-form"
-                            pattern='[A-Z a-z]+' minLength={9} maxLength={18} required onChange={((e) => {
+                            pattern='[A-Z a-z]+' minLength={3} maxLength={18} required onChange={((e) => {
                                 setNome(e.target.value)
                             })} />
 

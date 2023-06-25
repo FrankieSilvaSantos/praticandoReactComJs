@@ -69,17 +69,7 @@ function Programacao() {
                                 <div className="col-6">
 
                                 </div>
-                                <div className="col-6 text-right">
-
-
-
-                                    <a className="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-                                        <i className="fa fa-arrow-left"></i>
-                                    </a>
-                                    <a className="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                                        <i className="fa fa-arrow-right"></i>
-                                    </a>
-                                </div>
+                             
                                 <div className="col-12">
 
 
