@@ -23,7 +23,7 @@ function Programacao() {
     }
 
 
-
+    localStorage.clear()
 
     useEffect(() => {
         axios.get('http://localhost:4000/cards')

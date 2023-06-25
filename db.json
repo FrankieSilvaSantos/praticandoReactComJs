@@ -1,17 +1,10 @@
 {
   "cards": [
     {
-      "nome": "Bruno Sacramento",
-      "cargo": "frontend",
-      "time": "Programação",
-      "imagem": "https://i.pinimg.com/564x/dc/37/08/dc370829e95ca20ac19666df77f70593.jpg",
-      "id": 2
-    },
-    {
       "nome": "Frankie Yoogan",
-      "cargo": "fullstack",
+      "cargo": "backend",
+      "imagem": "https://i.pinimg.com/564x/fd/56/5e/fd565e4e62eb6e35a69fdd9140c06a8f.jpg",
       "time": "Programação",
-      "imagem": "https://i.pinimg.com/564x/09/69/48/0969485a96b79ca75335dc920fac2128.jpg",
       "id": 3
     },
     {
@@ -23,23 +16,23 @@
     },
     {
       "nome": "Camilla bucci",
-      "cargo": "Ilustradora",
+      "cargo": "Modelagem",
+      "imagem": "https://i.pinimg.com/564x/5c/8f/0b/5c8f0bc577d577d130e68eb2164db958.jpg",
       "time": "UX e Design",
-      "imagem": "https://i.pinimg.com/564x/c4/2e/59/c42e5951a831daa686babd5ede9541f6.jpg",
       "id": 5
     },
     {
       "nome": "Bruno Sacramento",
-      "cargo": "front",
-      "time": "Front-end",
+      "cargo": "Coordenador",
       "imagem": "https://i.pinimg.com/564x/30/f8/bf/30f8bfba46d6aa6b11cd110a5f6872f8.jpg",
+      "time": "Front-end",
       "id": 6
     },
     {
-      "nome": "Rodolfo",
-      "cargo": "O mais brabo",
+      "nome": "Brocolis",
+      "cargo": "dataa",
+      "imagem": "https://i.pinimg.com/564x/fb/fb/c4/fbfbc4a79603369169c149c332d319ea.jpg",
       "time": "Data Science",
-      "imagem": "https://i.pinimg.com/564x/6e/65/fd/6e65fd7e824ae27a62db1a3d69fe0a58.jpg",
       "id": 7
     },
     {
@@ -50,16 +43,16 @@
       "id": 8
     },
     {
-      "nome": "Sasa",
-      "cargo": "Android",
-      "imagem": "https://i.pinimg.com/564x/94/96/73/949673a8946b6faee1fc965bf017c851.jpg",
+      "nome": "Ghost",
+      "cargo": "celular",
+      "imagem": "https://i.pinimg.com/564x/a3/94/fe/a394fee5ac0775a93ba420b946d2c8e7.jpg",
       "time": "Mobile",
       "id": 9
     },
     {
       "nome": "Augusta",
-      "cargo": "Lapapadaa",
-      "imagem": "https://i.pinimg.com/564x/e1/15/e8/e115e8b1b2a175b8a8f407daa7ec4e63.jpg",
+      "cargo": "Gestora",
+      "imagem": "https://i.pinimg.com/564x/4d/ad/a7/4dada7319f041075b5d11308192385ed.jpg",
       "time": "Inovação e Gestão",
       "id": 10
     }

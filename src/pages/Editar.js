@@ -47,7 +47,7 @@ function Editar() {
                 setTimeout(() => navigate('/frontend'), 2000);
                 }
 
-                if(localStorage.getItem('Programação')) {
+                if(localStorage.getItem('programacao')) {
                     setTimeout(() => navigate('/programacao'), 2000);
                     }
 
@@ -63,7 +63,7 @@ function Editar() {
                                 setTimeout(() => navigate('/devops'), 2000);
                                 }
 
-                                if(localStorage.getItem('UX e Design')) {
+                                if(localStorage.getItem('design')) {
                                     setTimeout(() => navigate('/design'), 2000);
                                     }
 

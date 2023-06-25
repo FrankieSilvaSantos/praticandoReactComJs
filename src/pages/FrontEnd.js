@@ -22,7 +22,7 @@ function FrontEnd() {
             localStorage.setItem('Front-end',time)
     }
 
-
+    localStorage.clear()
 
 
     useEffect(() => {

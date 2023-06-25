@@ -22,7 +22,7 @@ function Mobile() {
             localStorage.setItem('Mobile',time)
     }
 
-
+    localStorage.clear()
 
 
     useEffect(() => {

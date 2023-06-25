@@ -22,7 +22,7 @@ function DataScience() {
             localStorage.setItem('Data Science',time)
     }
 
-
+    localStorage.clear()
 
 
     useEffect(() => {
